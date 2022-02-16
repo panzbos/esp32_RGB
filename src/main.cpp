@@ -96,13 +96,13 @@ void loop() {
   if (button1.isPressed()) {
     led1.on();
     led2.off();
-    led3.on();
+    led3.off();
     led4.off();
   }
   else {
-    led1.off();
+    led1.on();
     led2.on();
-    led3.off();
+    led3.on();
     led4.on();
   }
 }
